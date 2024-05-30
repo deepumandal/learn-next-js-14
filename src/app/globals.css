@@ -18,6 +18,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
   background: linear-gradient(
       to bottom,
       transparent,
